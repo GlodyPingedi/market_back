@@ -12,7 +12,6 @@ class Vente extends Model
     protected $fillable = [
         'date_vente',
         'total',
-        'client_id',
     ];
 
     // Relation : Une vente peut avoir plusieurs détails
